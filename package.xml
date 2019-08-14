@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>SSTech_Abandcart</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Abandoned cart module which help client to send a e-mail to the logged in customer who abandoned the cart</summary>
+    <description>Abandoned cart module which help client to send a e-mail to the logged in customer who abandoned the cart&#xD;
+&#xD;
+Features &#xD;
+-Easily manage from Admin &#xD;
+-Help to increase the sale &#xD;
+-Just setup cron and mail will send to customer&#xD;
+-Manage number of days when to send mail to customer&#xD;
+-Send mail to specific customer &#xD;
+</description>
+    <notes>Release version 1.0.0</notes>
+    <authors><author><name>SSTech</name><user>SSTech</user><email>sandynareshg@gmail.com</email></author></authors>
+    <date>2014-02-02</date>
+    <time>04:41:40</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="SSTech_Abandcart.xml" hash="a04c8ebf15d74ed29e5ec727d6cd7f43"/></dir></target><target name="magecommunity"><dir name="SSTech"><dir name="Abandcart"><dir name="Block"><dir name="Debug"><file name="Report.php" hash="2d0c710c5916e9b26e93f4938e6a224f"/></dir></dir><dir name="Helper"><file name="Data.php" hash="df6cb74b034f899329038dfa3634461d"/></dir><dir name="Model"><file name="Cron.php" hash="707a9342421c58b082679c1ab8077655"/><file name="Report.php" hash="50a3a7468689fa097824cc84ba16149f"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="DebugController.php" hash="303a78905d4797f9ead284f293123354"/></dir><file name="IndexController.php" hash="249beacfd38003f285cfaaea8790bf47"/></dir><dir name="etc"><file name="adminhtml.xml" hash="d9214c26d702453bd6299f63118a91b2"/><file name="config.xml" hash="d30d2e9b2d1b871d46839fb77166800f"/><file name="system.xml" hash="2d855587eb4d7dacb2e0a00356c9afdd"/></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><dir name="abandcart"><file name="emailreport.html" hash="822ce21971e4d8d94c1623cbb71c82af"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.17</min><max>6.0.0</max></php></required></dependencies>
+</package>

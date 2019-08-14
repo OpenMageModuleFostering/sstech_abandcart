@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/SSTech_Abandcart",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Abandoned cart module which help client to send a e-mail to the logged in customer who abandoned the cart",
+    "authors": [
+    {
+        "name": "SSTech",
+        "email": "sandynareshg@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
