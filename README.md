@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Abandoned cart module which help client to send a e-mail to the logged in customer who abandoned the cart
